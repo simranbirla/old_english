@@ -1,0 +1,58 @@
+textarea,
+#output-contain {
+  padding: 1em;
+  height: 20vh;
+  width: 80%;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+body {
+  background: url("https://thumbs.dreamstime.com/b/old-floral-parchment-12798178.jpg")
+    no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: medium;
+  font-weight: 700;
+  box-shadow: 0 5px 1px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+header {
+  text-align: center;
+  height: 10vh;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  line-height: 10vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+#output-contain {
+  text-align: center;
+  background-color: seashell;
+}
+
+footer {
+  height: 15vh;
+  font-size: 2em;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: blanchedalmond;
+  text-align: center;
+  padding-top: 1em;
+  overflow: auto;
+}
